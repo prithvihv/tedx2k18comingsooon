@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+
+	<svg width="256" height="256" viewBox="0 0 256 256">
+		<polygon style="stroke:purple;stroke-width:5" points="64 68.73508918222262 8.574 99.9935923731656 63.35810017508558 67.62284396863708 64 3.993592373165592 64.64189982491442 67.62284396863708 119.426 99.9935923731656"></polygon>
+		<text x="0" y="20" transform="rotate(30 20,40)" fill="red">
+    	SVG Text Rotation example
+  		</text>
+		
+	</svg>
+	<script>
+		anime({
+	  		targets: 'polygon',
+	  		points: '64 128 8.574 96 8.574 32 64 0 119.426 32 119.426 96'
+		});
+	</script>
+
+	<!-- <svg width="256" height="256" viewBox="0 0 256 256">
+		<polygon points="100,0 200,0 200,200 200,100"></polygon>
+		<text x="0" y="20" transform="rotate(30 20,40)" fill="red">
+    	SVG Text Rotation example
+  		</text>
+		
+	</svg>
+	<script>
+		// anime({
+	 //  		targets: 'polygon',
+	 //  		points: '64 128 8.574 96 8.574 32 64 0 119.426 32 119.426 96'
+		// });
+	</script> -->
+
+</body>
+</html>
+
